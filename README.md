@@ -2,7 +2,11 @@
 
 Notes:
 
-  css3 icon for tool box section - fa fa-css3
+tool box section:
+  css:    fa fa-css3
+  html:   fa fa-html5
+  slack:  fa fa-slack
+  trello: fa fa-trello
 
   project img hoover:
     img blurs,
