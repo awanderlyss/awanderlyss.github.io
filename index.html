@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <title>Alyssa Felix | Web Developer</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="./assets/images/favicon.png">
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Devicon (http://devicon.fr/) development icons -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <head>
+    <title>Alyssa Felix | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Devicon (http://devicon.fr/) development icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+  </head>
+
   <body>
 
     <!-- Sidenav with image -->
@@ -74,30 +78,9 @@
           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
         <!-- Tool box -->
-        <h3 class="w3-padding-16">My Skills</h3>
-
-        <p class="w3-wide">Languages</p>
-        <div class="tools">
-          <i class="w3-xxxlarge w3-hover-text-blue devicon-css3-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-html5-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-javascript-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-ruby-plain"></i>
-        </div>
-        <p class="w3-wide">Frameworks && Libraries</p>
-        <div class="tools">
-          <i class="w3-xxxlarge w3-hover-text-red devicon-angularjs-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-jquery-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-rails-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-sass-original"></i>
-        </div>
-        <p class="w3-wide">Technologies</p>
-        <div class="tools">
-          <i class="w3-xxxlarge w3-hover-text-red devicon-atom-original"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-git-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-github-plain"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-heroku-original"></i>
-          <i class="w3-xxxlarge w3-hover-text-red devicon-trello-plain"></i>
-        </div><br>
+        <h3 class="w3-padding-16">Tool Box</h3>
+        <!-- toolbox create dynamically  -->
+        <div id="toolbox"></div>
 
         <button class="w3-btn w3-light-grey w3-padding-large w3-section"
         onclick="window.open('./assets/files/resume.pdf')">
