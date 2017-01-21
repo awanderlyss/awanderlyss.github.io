@@ -1,5 +1,11 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+
 .bgimg {
     background-position: center;
     background-repeat: no-repeat;
@@ -8,9 +14,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     min-height: 100%;
 }
 
+/***********************PORTFOLIO***************************/
+
+
+
+
 /***********************TOOL BOX***************************/
 .tools {
-  width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -21,4 +31,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 .tools i:hover {
   -webkit-transform: scale(1.5);
+}
+
+/***********************FOOTER***************************/
+footer a {
 }
