@@ -1,5 +1,18 @@
 # awanderlyss.github.io
 
+1. need to update about section
+2. add color to each dev icon
+3. change box shadow of btns to orange
+4. project img hoover:
+    a. img blurs
+    b. pull up box from bottom:
+      1. short desc of project
+      2. contacts two links: app and github(repo)
+5. convert css to scss (import w-3 css)
+6. add img of self
+7. 
+
+
 Notes:
 
 tool box section:
@@ -14,7 +27,7 @@ tool box section:
   ruby:                    #D91404
   sass:                    #CB6699
   atom:                    #67595D
-  
+
 
 
 

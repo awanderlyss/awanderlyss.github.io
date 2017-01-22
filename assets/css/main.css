@@ -10,10 +10,19 @@ body, h1,h2,h3,h4,h5,h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/w3images/profile_girl.jpg');
+    background-image: url('../images/headshot.jpg');
     min-height: 100%;
 }
 
+/***********************HEADER***************************/
+p i {
+  font-family: 'Calligraffitti', cursive;
+}
+
+
+p span {
+  font-family: 'Inconsolata', monospace;
+}
 /***********************PORTFOLIO***************************/
 
 
