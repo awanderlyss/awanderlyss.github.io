@@ -29,3 +29,9 @@ function createToolbox() {
 
 }
 createToolbox();
+
+$("tools").hover(function(){
+  $(this).addClass(
+    "colored"
+  );
+});
