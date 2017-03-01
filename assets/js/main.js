@@ -1,13 +1,8 @@
-
-// Open and close sidenav
-function openNav() {
-  document.getElementById("mySidenav").style.width = "60%";
-  document.getElementById("mySidenav").style.display = "block";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.display = "none";
-}
+// http://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript
+// function that capitalizes the first letter of a string
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+};
 
 function createToolbox() {
   let toolbox = $("#toolbox");
@@ -18,11 +13,18 @@ function createToolbox() {
   "devicon-heroku-original", "devicon-trello-plain", "fa fa-slack"]}];
 
   for(let tool in toolboxTools){
-    toolbox.append(`<p class="w3-wide">${toolboxTools[tool].title}</p>`);
+    toolbox.append(`<h6>${toolboxTools[tool].title}</h6>`);
     toolbox.append('<div class="tools"></div>');
     for(let icon in toolboxTools[tool].icons){
-      console.log(toolboxTools[tool].icons[icon]);
-      $('.tools').eq(tool).append(`<i class="w3-xxxlarge ${toolboxTools[tool].icons[icon]}"></i>`);
+      let arrSplitIconName = toolboxTools[tool].icons[icon].split("-");
+      let iconName = arrSplitIconName[1];
+      console.log(iconName.capitalize());
+      $('.tools').eq(tool).append(`
+        <div class="tool">
+          <i class="${toolboxTools[tool].icons[icon]}"></i>
+          <p>${iconName.capitalize()}</p>
+        </div>`);
+
     }
 
   }
