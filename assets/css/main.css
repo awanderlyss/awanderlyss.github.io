@@ -1,6 +1,15 @@
 /*************************** HEADER ***************************/
-.mdl-layout__header-row {
-  height: 10px;
+.mdl-layout {
+  background: url('../images/bg-img.jpg') center / cover;
+}
+
+.mdl-layout__tab-bar {
+  background: none;
+}
+
+.mdl-layout__header {
+  background: none;
+  box-shadow: none;
 }
 
 /************************** HOME TAB **************************/
@@ -13,7 +22,7 @@
 
 
 body, h1,h2,h3,h4,h5,h6 {
-  font-family: "Montserrat", sans-serif
+  font-family: "Roboto", sans-serif
 }
 
 .w3-row-padding img {
