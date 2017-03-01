@@ -1,8 +1,14 @@
+/*************************** HEADER ***************************/
 .mdl-layout__header-row {
   height: 10px;
 }
 
+/************************** HOME TAB **************************/
 
+.home-text {
+  /* color: white; */
+  margin: auto;
+}
 
 
 
@@ -22,7 +28,7 @@ body, h1,h2,h3,h4,h5,h6 {
     min-height: 100%;
 }
 
-/***********************HEADER***************************/
+
 p i {
   font-family: 'Calligraffitti', cursive;
 }
