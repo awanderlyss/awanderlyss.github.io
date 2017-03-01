@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alyssa Felix | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Inconsolata|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Devicon (http://devicon.fr/) development icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+  </head>
+
+  <body>
+
+    <!-- Sidenav with image -->
+    <nav class="w3-sidenav w3-hide-medium w3-hide-small" style="width:40%">
+      <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidenav (reveals when clicked on menu icon)-->
+    <nav class="w3-sidenav w3-black w3-animate-right w3-center w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidenav">
+      <a href="javascript:void(0)" onclick="closeNav()" class="w3-closenav w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+        <i class="fa fa-remove"></i>
+      </a>
+      <a href="#" class="w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="#portfolio" class="w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+      <a href="#about" class="w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+      <a href="#contact" class="w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+      <!-- Menu icon to open sidenav -->
+      <span class="w3-opennav w3-top w3-padding-top w3-xxlarge w3-margin-right w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+      <!-- Header -->
+      <header class="w3-container w3-padding-64 w3-center" id="home">
+        <h1 class="w3-jumbo"><b>Alyssa Felix</b></h1>
+        <p class=""><i class="w3-large w3-text-orange
+        ">Adventure Junkie </i> disguised as a <span class="w3-large">WEB DEVELOPER</span></p>
+        <img src="assets/images/headshot.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+        <img src="assets/images/headshot.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+        <button class="w3-btn w3-light-grey w3-padding-large w3-margin-top" onclick="window.open('./assets/files/resume.pdf')">
+          <i class="fa fa-download"></i> Download Resume
+        </button>
+      </header>
+
+      <!-- Portfolio Section -->
+      <div class="w3-padding-32 w3-content" id="portfolio">
+        <h2 class="w3-text-grey">My Portfolio</h2>
+        <hr class="w3-opacity">
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <!-- Project 1 -->
+          <div class="w3-half">
+            <img src="./assets/images/projects/hangman.png" alt="Project" style="width:100%">
+            <div class="w3-container">
+              <h4><b>Hangman</b></h4>
+              <p>2 player classic guessing game</p>
+              <div class="w3-center">
+                <a href="https://awanderlyss.github.io/hangman" target="_blank" class="w3-btn w3-light-grey w3-margin-right">DEMO</a>
+                <a href="https://github.com/awanderlyss/hangman" target="_blank" class="w3-btn w3-light-grey">GITHUB</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="w3-half">
+            <img src="./assets/images/projects/gamrbuddy.png" alt="Project" style="width:100%">
+            <div class="w3-container">
+              <h4><b>GamrBuddy</b></h4>
+              <p>Ultimate web app for Ps4 gamers seeking other gamers with the same games</p>
+              <div class="w3-center">
+                <a href="https://gamrbuddy.herokuapp.com/" target="_blank" class="w3-btn w3-light-grey w3-margin-right">DEMO</a>
+                <a href="https://github.com/awanderlyss/gamrbuddy" target="_blank" class="w3-btn w3-light-grey">GITHUB</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="w3-half">
+            <img src="./assets/images/projects/awanderlyssgirl.png" alt="Project" style="width:100%">
+            <div class="w3-container">
+              <h4><b>AwanderlyssGirl</b></h4>
+              <p>a private blog app that I created for my own personal use.</p>
+              <div class="w3-center">
+                <a href="https://awanderlyssgirl-demo.herokuapp.com/" target="_blank" class="w3-btn w3-light-grey w3-margin-right">DEMO</a>
+                <a href="https://github.com/awanderlyss/awanderlyssgirl" target="_blank" class="w3-btn w3-light-grey">GITHUB</a>
+              </div>
+            </div>
+          </div>
+
+        <!-- End photo grid -->
+        </div>
+      <!-- End Portfolio Section -->
+      </div>
+
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+        <h2>About</h2>
+        <hr class="w3-opacity">
+        <p>
+          I am a hard-working, creative problem solver driven by curiosity. My visionary nature allows me to see things from an unconventional perspective. My purpose is to seek an open-minded team who shares my same principles and ideas when it comes to using technology to help others.
+        </p>
+        <!-- Tool box -->
+        <h3 class="w3-padding-16">Tool Box</h3>
+        <!-- toolbox created dynamically  -->
+        <div id="toolbox"></div>
+
+        <div class="w3-center">
+          <button class="w3-btn w3-light-grey w3-padding-large w3-section"
+          onclick="window.open('./assets/files/resume.pdf')">
+            <i class="fa fa-download"></i> Download Resume
+          </button>
+        </div>
+
+      <!-- End About Section -->
+      </div>
+
+      <!-- Contact Section -->
+      <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+        <h2>Contact Me</h2>
+        <hr class="w3-opacity">
+
+        <div class="w3-section">
+          <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <span>Location:</span> Providence, US <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+
+          <a href="mailto:alyssa.felix7@gmail.com">Email Me</a></p>
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+        <a href="https://www.github.io/awanderlyss" target="_blank"><i class="fa fa-github w3-hover-text-purple"></i></a>
+        <a href="https://www.linkedin.com/in/alyssa-felix" target="_blank"><i class="fa fa-linkedin w3-hover-text-indigo"></i></a>
+        <a href="https://twitter.com/awanderlyss" target="_blank"><i class="fa fa-twitter w3-hover-text-light-blue"></i></a>
+        <a href="https://www.instagram.com/awanderlyss" target="_blank"><i class="fa fa-instagram w3-hover-text-brown"></i></a>
+        <p class="w3-small">Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+
+      <!-- End footer -->
+      </footer>
+
+    <!-- END PAGE CONTENT -->
+    </div>
+
+    <!-- Add all scripts -->
+    <script src="./assets/js/main.js" charset="utf-8"></script>
+  </body>
+</html>
