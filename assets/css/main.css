@@ -7,7 +7,8 @@ body, h1,h2,h3,h4,h5,h6 {
 /*************************** HEADER ****************************/
 
 .mdl-layout {
-  background: url('../images/bg-img.jpg') center / cover;
+  background: url('../images/bg-img.jpg') center / cover;ah
+  
 }
 
 .mdl-layout__tab-bar {
@@ -33,19 +34,40 @@ body, h1,h2,h3,h4,h5,h6 {
 
 
 /*********************** ABOUT PANEL ***************************/
+.about-grid {
+  color: white;
+}
+
+.about-grid .mdl-card {
+  background: none;
+}
 
 .about-grid img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.about-grid h4, h6 {
+  margin: 0;
+}
+
+.about-text p {
+  font-size: 20px;
 }
 
 .tools {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.tools i {
+.tool {
+  text-align: center;
+}
+
+.tool p {
+  margin: 0;
 }
 
 .tools i:hover {

@@ -9,8 +9,8 @@ function createToolbox() {
   let tools = $('<div class="tools"></div>');
   let toolboxTools = [{ title: "Languages", icons: ["devicon-css3-plain", "devicon-html5-plain", "devicon-javascript-plain", "devicon-ruby-plain"]},
   {title: "Frameworks && Libraries", icons: ["devicon-angularjs-plain", "devicon-jquery-plain", "devicon-rails-plain", "devicon-sass-original"]},
-  {title: "Technologies", icons: ["devicon-atom-original", "devicon-git-plain", "devicon-github-plain",
-  "devicon-heroku-original", "devicon-trello-plain", "fa fa-slack"]}];
+  {title: "Technologies", icons: ["devicon-git-plain", "devicon-github-plain",
+  "devicon-heroku-original"]}];
 
   for(let tool in toolboxTools){
     toolbox.append(`<h6>${toolboxTools[tool].title}</h6>`);
@@ -21,7 +21,7 @@ function createToolbox() {
       console.log(iconName.capitalize());
       $('.tools').eq(tool).append(`
         <div class="tool">
-          <i class="${toolboxTools[tool].icons[icon]}"></i>
+          <i class="${toolboxTools[tool].icons[icon]} colored"></i>
           <p>${iconName.capitalize()}</p>
         </div>`);
 
