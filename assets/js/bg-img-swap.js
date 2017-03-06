@@ -4,6 +4,9 @@ $('header').on('click', function(){
   let currentTab = $('.is-active')[1].id;
   console.log(currentTab);
   // if tab is not equal to home
+  if(currentTab !== 'home'){
+    console.log("currentTab is not home!!");
+    // we need to change the background image to white
+  }
 
-  // we need to change the background image to white
 });
