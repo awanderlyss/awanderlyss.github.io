@@ -15,11 +15,13 @@ function createToolbox() {
 
   // for each icon in icons
   for(let icon in icons){
-    console.log(icon);
-    // tool.append(`<i class="${icon}"></i>`)
+    console.log(icons[icon]);
+    // append icon & title in a tool div
+    tool.append(`<i class="${icons[icon]}"></i>`);
+    // append tool to toolbox div
+    toolbox.append(tool);
   }
-  // append icon & title in a tool div
-  // append tool to toolbox div
+
 
   // for(let tool in toolboxTools){
   //   toolbox.append(`<h6>${toolboxTools[tool].title}</h6>`);
