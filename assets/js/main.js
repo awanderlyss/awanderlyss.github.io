@@ -23,7 +23,7 @@ String.prototype.capitalize = function() {
     let iconName = splitIconNameArr[1];
     // append icon & icon name in a tool div
     tool.append(`
-      <i class="${icons[icon]}"></i>
+      <i class="${icons[icon]} colored"></i>
       <p>${iconName.capitalize()}</p>
     `);
     // append tool to toolbox div

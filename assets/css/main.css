@@ -1,7 +1,7 @@
 /************************** MAIN DOC ***************************/
 
 body, h1,h2,h3,h4,h5,h6 {
-  font-family: "Roboto", sans-serif
+  font-family: 'Roboto', sans-serif;
 }
 
 /*************************** HEADER ****************************/
@@ -33,44 +33,52 @@ body, h1,h2,h3,h4,h5,h6 {
 
 
 /*********************** ABOUT PANEL ***************************/
-.about-grid {
-
-}
-
-.about-grid .mdl-card {
-  background: none;
-}
 
 .about-grid img {
-  width: 90%;
-  height: 90%;
-  margin: auto;
+  width: 100%;
+  height: 100%;
 }
 
-.about-grid h4, h6 {
-  margin: 0;
+.about-grid .mdl-card__title {
+  padding-bottom: 0;
 }
 
-.about-text p {
-  font-size: 20px;
-}
-
-.tools {
+.about-grid .mdl-card__title-text {
+  font-family: 'Clicker Script', cursive;
+  font-size: 40px;
+  letter-spacing: 1px;
   margin: 0 auto;
+}
+
+.about-grid .mdl-card__supporting-text {
+  margin: 0 auto;
+  padding: 8px 16px;
+}
+
+.about-grid h5 {
+  margin-bottom: 0;
+}
+
+#toolbox {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding-bottom: 0;
 }
 
 .tool {
+  width: 65px;
   text-align: center;
+  margin: 5px;
+}
+
+.tool i {
+  font-size: 45px;
 }
 
 .tool p {
+  font-size: 14px;
   margin: 0;
-}
-
-.tools i:hover {
-  -webkit-transform: scale(1.5);
 }
 
 /********************** PORTFOLIO PANEL ************************/
