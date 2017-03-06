@@ -5,29 +5,38 @@ String.prototype.capitalize = function() {
 };
 
 function createToolbox() {
+  // get toolbox div
   let toolbox = $("#toolbox");
-  let tools = $('<div class="tools"></div>');
-  let toolboxTools = [{ title: "Languages", icons: ["devicon-css3-plain", "devicon-html5-plain", "devicon-javascript-plain", "devicon-ruby-plain"]},
-  {title: "Frameworks && Libraries", icons: ["devicon-angularjs-plain", "devicon-jquery-plain", "devicon-rails-plain", "devicon-sass-original"]},
-  {title: "Technologies", icons: ["devicon-git-plain", "devicon-github-plain",
-  "devicon-heroku-original"]}];
+  // create div to hold icon and title
+  let tool = $('<div class="tool"></div>');
+  // array of icons
+  let icons = ["devicon-css3-plain", "devicon-html5-plain", "devicon-javascript-plain", "devicon-ruby-plain", "devicon-angularjs-plain", "devicon-jquery-plain", "devicon-rails-plain", "devicon-sass-original", "devicon-git-plain", "devicon-github-plain",
+  "devicon-heroku-original"];
 
-  for(let tool in toolboxTools){
-    toolbox.append(`<h6>${toolboxTools[tool].title}</h6>`);
-    toolbox.append('<div class="tools"></div>');
-    for(let icon in toolboxTools[tool].icons){
-      let arrSplitIconName = toolboxTools[tool].icons[icon].split("-");
-      let iconName = arrSplitIconName[1];
-      console.log(iconName.capitalize());
-      $('.tools').eq(tool).append(`
-        <div class="tool">
-          <i class="${toolboxTools[tool].icons[icon]} colored"></i>
-          <p>${iconName.capitalize()}</p>
-        </div>`);
-
-    }
-
+  // for each icon in icons
+  for(let icon in icons){
+    console.log(icon);
+    // tool.append(`<i class="${icon}"></i>`)
   }
+  // append icon & title in a tool div
+  // append tool to toolbox div
+
+  // for(let tool in toolboxTools){
+  //   toolbox.append(`<h6>${toolboxTools[tool].title}</h6>`);
+  //   toolbox.append('<div class="tools"></div>');
+  //   for(let icon in toolboxTools[tool].icons){
+  //     let arrSplitIconName = toolboxTools[tool].icons[icon].split("-");
+  //     let iconName = arrSplitIconName[1];
+  //     console.log(iconName.capitalize());
+  //     $('.tools').eq(tool).append(`
+  //       <div class="tool">
+  //         <i class="${toolboxTools[tool].icons[icon]} colored"></i>
+  //         <p>${iconName.capitalize()}</p>
+  //       </div>`);
+  //
+  //   }
+  //
+  // }
 
 }
 createToolbox();
