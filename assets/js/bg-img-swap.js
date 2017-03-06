@@ -10,5 +10,8 @@ $('header').on('click', function(){
     // we need to change the background image to white
     $('.mdl-layout').css('background', 'white');
   }
+  else {
+    $('.mdl-layout').css('background', "url('./assets/images/bg-img2.jpg')");
+  }
 
 });
