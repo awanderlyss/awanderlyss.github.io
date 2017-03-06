@@ -7,8 +7,7 @@ String.prototype.capitalize = function() {
 function createToolbox() {
   // get toolbox div
   let toolbox = $("#toolbox");
-  // create div to hold icon and title
-  let tool = $('<div class="tool"></div>');
+
   // array of icons
   let icons = ["devicon-css3-plain", "devicon-html5-plain", "devicon-javascript-plain", "devicon-ruby-plain", "devicon-angularjs-plain", "devicon-jquery-plain", "devicon-rails-plain", "devicon-sass-original", "devicon-git-plain", "devicon-github-plain",
   "devicon-heroku-original"];
@@ -16,6 +15,8 @@ function createToolbox() {
   // for each icon in icons
   for(let icon in icons){
     console.log(icons[icon]);
+    // create div to hold icon and title
+    let tool = $('<div class="tool"></div>');
     // append icon & title in a tool div
     tool.append(`<i class="${icons[icon]}"></i>`);
     // append tool to toolbox div
