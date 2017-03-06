@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-orange.min.css" />
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Roboto" rel="stylesheet">    <!-- Devicon (http://devicon.fr/) development icons -->
+    <link href="https://fonts.googleapis.com/css?family=Clicker+Script|Roboto" rel="stylesheet">
+    <script src="https://use.fontawesome.com/437346b95c.js"></script>
+    <!-- Devicon (http://devicon.fr/) development icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -45,10 +47,10 @@
         <section class="mdl-layout__tab-panel" id="about">
           <div class="page-content">
             <div class="mdl-grid about-grid">
-              <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--4dp">
+              <div class="mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp">
                 <img src="./assets/images/headshot.jpg" alt="Headshot">
               </div>
-              <div class="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--4dp">
+              <div class="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title">
                   <h2 class="mdl-card__title-text">Alyssa M Felix</h2>
                 </div>
@@ -57,7 +59,7 @@
                     I am a hard-working, creative problem solver driven by curiosity. My visionary nature allows me to see things from an unconventional perspective. My purpose is to seek an open-minded team who shares my same principles and ideas when it comes to using technology to help others.
                   </p>
                   <p>
-                    When I'm not programming, I love spending time with my friends outdoors. I enjoy going hiking, riding dirtbikes, and playing videos.
+                    When I'm not programming, I love spending my time outside with friends. I enjoy going hiking, riding dirtbikes, and playing videos.
                   </p>
                   <h5>Tool Box</h5>
                   <!-- toolbox created dynamically  -->
@@ -71,7 +73,34 @@
         <section class="mdl-layout__tab-panel" id="portfolio">
           <div class="page-content">
             <div class="mdl-grid portfolio-grid">
-              <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp">
+              <!-- hangman project -->
+              <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title hangman">
+                  <h2 class="mdl-card__title-text">Hangman</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  A client-side guessing game for two players that was built using HTML5, CSS3, and Javascript.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a href="https://awanderlyss.github.io/hangman" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">DEMO</a>
+                  <a href="https://github.com/awanderlyss/hangman" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">GITHUB</a>
+                </div>
+              </div>
+              <!-- gamrbuddy project -->
+              <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title gamrbuddy">
+                  <h2 class="mdl-card__title-text">GamrBuddy</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  A Ruby on Rails full-stack app for gamers seeking help in completing co-op missions. This app also utilizes PostgreSQL, HTML5, and W3 templates(CSS3).
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a href="https://gamrbuddy.herokuapp.com/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">DEMO</a>
+                  <a href="https://github.com/awanderlyss/gamrbuddy" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">GITHUB</a>
+                </div>
+              </div>
+              <!-- awanderlyssgirl project -->
+              <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--2dp">
                 <div class="mdl-card__title awanderlyssgirl">
                   <h2 class="mdl-card__title-text">AwanderlyssGirl</h2>
                 </div>
@@ -83,23 +112,6 @@
                   <a href="https://github.com/awanderlyss/awanderlyssgirl" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">GITHUB</a>
                 </div>
               </div>
-              <div class="mdl-cell mdl-cell--6-col mdl-card mdl-shadow--4dp">
-                <div class="mdl-card__title gamrbuddy">
-                  <h2 class="mdl-card__title-text">GamrBuddy</h2>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  A Ruby on Rails full-stack app for gamers seeking help in completing co-op missions. This app also utilizes PostgreSQL, HTML5, and W3 templates(CSS3).
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                  <a href="https://gamrbuddy.herokuapp.com/" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">DEMO</a>
-                  <a href="https://github.com/awanderlyss/gamrbuddy" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">GITHUB</a>
-                </div>
-                <div class="mdl-card__menu">
-                  <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                    <i class="material-icons">share</i>
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -107,11 +119,26 @@
         <section class="mdl-layout__tab-panel" id="contact">
           <div class="page-content">
             <div class="mdl-grid contact-grid">
-              <div class="mdl-cell mdl-cell--6-col">
-                CONTENT
+              <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                <a href="https://goo.gl/maps/kJpTmqU6eix"><i class="fa fa-map-marker"></i></a>
+                <p>Providence, RI</p>
               </div>
-              <div class="mdl-cell mdl-cell--6-col">
-                CONTENT
+              <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                <a href="mailto:alyssa.felix7@gmail.com"><i class="fa fa-envelope"></i></a>
+              </div>
+              <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                <a href="https://www.linkedin.com/in/alyssa-felix" target="_blank"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="mdl-grid contact-grid">
+              <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                <a href="https://www.github.io/awanderlyss" target="_blank"><i class="fa fa-github"></i></a>
+              </div>
+              <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                <a href="https://www.instagram.com/awanderlyss" target="_blank"><i class="fa fa-instagram"></i></a>
+              </div>
+              <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                <a href="https://twitter.com/awanderlyss" target="_blank"><i class="fa fa-twitter"></i></a>
               </div>
             </div>
           </div>

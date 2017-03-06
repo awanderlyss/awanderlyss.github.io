@@ -89,21 +89,28 @@ body, h1,h2,h3,h4,h5,h6 {
 }
 
 .portfolio-grid .mdl-card__title {
-  color: white;
   width: 100%;
   height: 400px;
 }
 
-.awanderlyssgirl {
-  background: url('../images/projects/awanderlyssgirl.png') center / cover;
+.hangman {
+  background: url('../images/projects/hangman.png') center / cover;
 }
 
 .gamrbuddy {
   background: url('../images/projects/gamrbuddy.png') center / cover;
 }
 
+.awanderlyssgirl {
+  color: white;
+  background: url('../images/projects/awanderlyssgirl.png') center / cover;
+}
+
 /*********************** CONTACT PANEL *************************/
 
+.contact-grid {
+  justify-content: center;
+}
 
 
 /************************** FOOTER *****************************/
