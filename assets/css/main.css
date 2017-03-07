@@ -7,7 +7,7 @@ body, h1,h2,h3,h4,h5,h6 {
 /*************************** HEADER ****************************/
 
 .mdl-layout {
-  background: #FAFAFA
+  background: url('../images/bg-img2.jpg') center / cover;
 }
 
 .mdl-layout__tab-bar {

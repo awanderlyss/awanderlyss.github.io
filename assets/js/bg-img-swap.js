@@ -6,11 +6,11 @@ $('header').on('click', function(){
   // if tab is not equal to home
   if(currentTab !== 'home'){
     // change the background image to white
-    $('.mdl-layout').css('background', 'white');
+    $('.mdl-layout').css('background', '#FAFAFA');
   }
   else {
     // home tab is clicked after init load, img will be set
-    $('.mdl-layout').css('background', "url('./assets/images/bg-img2.jpg')");
+    $('.mdl-layout').css('background', "url('./assets/images/bg-img2.jpg') center / cover");
   }
 
 });
