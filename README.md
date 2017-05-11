@@ -10,10 +10,18 @@
       2. contacts two links: app and github(repo)
 5. convert css to scss (import w-3 css)
 6. add img of self
-7. 
+7.
 
 
 Notes:
+
+#51a3a3
+#f07622
+#dd614a
+#373e40
+#191923
+
+
 
 tool box section:
   css:        fa fa-css3   #1572B6
@@ -23,7 +31,7 @@ tool box section:
   git:                     #F34F29
   rails:                   #A62C39
   github:                  black
-  javascript:              #F0DB4F
+  javascript:              
   ruby:                    #D91404
   sass:                    #CB6699
   atom:                    #67595D
