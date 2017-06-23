@@ -3,80 +3,144 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Introducing Alyssa Felix, an adventurous web developer.">
+    <meta name="description" content="Introducing Alyssa Felix, an Adventurous Web Developer.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Alyssa Felix | Web Developer</title>
     <link rel="icon" href="./assets/images/favicon.png">
-    <!-- Material Design Lite -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-orange.min.css" />
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <!-- Devicon (http://devicon.fr/) development icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <!-- Additional stlyes -->
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
 
   <body>
-    <div class="layout-transparent mdl-layout mdl-js-layout">
-      <header class="mdl-layout__header mdl-layout__header--transparent">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">Title</span>
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-          <!-- Navigation -->
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="#">About</a>
-            <a class="mdl-navigation__link" href="#">Portfolio</a>
-            <a class="mdl-navigation__link" href="#">Contact</a>
-          </nav>
-        </div>
-        <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title">Alyssa M Felix</span>
-          <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">About</a>
-            <a class="mdl-navigation__link" href="">Portfolio</a>
-            <a class="mdl-navigation__link" href="">Contact</a>
-          </nav>
-        </div>
-      </header>
-      <main class="mdl-layout__content">
-        <div id="lineDrawing">
-          <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="90%" height="100%">
-            <filter id="blur">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
-            </filter>
-              <filter id="innerBlur">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
-            </filter>
-            <g fill="none" fill-rule="evenodd" class="lines">
-              <path d='M331 11 L320 59 L271 50 L249 126 L321 176 L268 201 L279 288 L251 301 L206 283 L182 251 L146 252 L146 277 L111 321 L163 320'/>
-              <path d='M331 12 L312 33 L285 37 L270 48 L307 105 L249 126 L239 177 L205 173 L125 182 L146 252 L175 220'/>
-              <path d='M331 12 L384 49 L320 59 L307 105 L318 174 L357 210 L268 201 L249 126 L216 90 L200 105 L172 109 L175 139 L130 149'/>
-              <path d='M270 48 L244 66 L216 90 L224 131 L205 173 L175 220 L211 239 L206 283 L183 283 L163 320 L192 350 L108 326'/>
-              <path d='M320 59 L360 89 L307 105 L346 140 L402 113'/>
-              <path d='M378 50 L360 89 L402 113 L387 185 L346 140'/>
-              <path d='M384 49 L402 113 L360 89 L346 140 L321 176 L387 185 L357 210 L348 249 L268 201 L251 221 L251 301 L192 350 L183 283'/>
-              <path d='M249 126 L224 131 L172 109 L205 173 L175 139 L125 182 L119 212 L120 243 L146 252 L183 283 L146 277 L121 278 L108 326'/>
-              <path d='M348 249 L317 284 L268 201 L239 177 L251 221 L205 173 L211 239 L183 252 L183 283'/>
-              <path d='M172 109 L130 149 L125 182 L175 220 L183 252'/>
-              <path d='M317 284 L293 299 L279 288 L251 221 L206 283 L192 350 L186 354 L174 354 L149 363 L104 399 L56 396 L21 368 L11 320 L51 282 L64 264 L50 251 L47 229'/>
-              <path d='M120 243 L121 277 L146 252 L183 283 L109 322 L108 326 L78 357 L48 351 L45 331 L72 302 L87 271 L77 245 L46 229'/>
-              <path d='M174 354 L168 391 L145 430 L154 392 L149 363 L108 326 L104 399 L78 357 L56 396 L48 351 L21 368 L45 331 L11 320 L72 302 L51 282 L87 271 L64 264 L77 245 L53 253'/>
-            </g>
-          </svg>
-        </div>
-      </main>
+
+    <div id="treehouse" class="treehouse">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+      <style>
+        .floor,.deck{fill:#673c1a}
+        .frame{fill:#ad723d}
+        .back-frame{fill:#945f2d}
+        .roof-left{fill:#cc9f64}
+        .roof-right{fill:#90672f}
+        .roof-back{fill:#5b441b}
+        .roof-line,.door-fill{fill:#452b0a}
+        .shadow{fill:rgba(188,93,35,.65)}
+        .door-frame{fill:#975010}
+        .dark-wood{fill:#db8629}
+        .light-wood{fill:#e88e2e}
+        .wood-line{stroke:#bc5d23;stroke-width:8;}
+        .deck-top{fill:#744D2E;}
+        .railing{fill:#7c451b}
+      </style>
+      <g fill="none" fill-rule="evenodd">
+        <!--    Front of House wood panels    -->
+        <path class="dark-wood" d="M243 78 L349 203 L117 210 L243 78"/>
+        <path class="wood-line" d="M349 203 L117 210"/>
+        <path class="light-wood" d="M349 203 L117 210 L80 248 L80 265 L417 265 L417 248 L385 248 L347 203"/>
+        <path class="wood-line" d="M80 265 L417 265"/>
+        <path class="dark-wood" d="M80 265 L417 265 L418 323 L80 315 L80 265"/>
+        <path class="wood-line" d="M417 323 L80 315"/>
+        <path class="light-wood" d="M417 323 L80 315 L80 371 L418 360 L418 323"/>
+        <path class="wood-line" d="M80 371 L418 360"/>
+        <path class="dark-wood" d="M80 371 L418 360 L418 433 L80 435 L80 371"/>
+        <path class="wood-line" d="M418 433 L80 435"/>
+        <path class="light-wood" d="M418 433 L80 435 L80 482 L419 495 L418 433"/>
+        <path class="wood-line" d="M80 482 L419 495"/>
+        <path class="dark-wood" d="M80 482 L419 495 L419 552 L80 553 L80 482"/>
+        <!--    Side of House wood panels    -->
+        <path class="light-wood" d="M467 248 L480 248 L500 232 L500 246 L466 258 L467 248"/>
+        <path class="wood-line" d="M500 246 L466 258"/>
+        <path class="dark-wood" d="M500 246 L466 258 L463 313 L497 294 L500 246"/>
+        <path class="wood-line" d="M463 313 L497 294"/>
+        <path class="light-wood" d="M463 313 L497 294 L493 341 L460 353 L463 313"/>
+        <path class="wood-line" d="M493 341 L460 353"/>
+        <path class="dark-wood" d="M493 341 L460 353 L457 406 L490 381 L493 341"/>
+        <path class="wood-line" d="M457 406 L490 381"/>
+        <path class="light-wood" d="M457 406 L490 381 L484 435 L455 455 L457 406"/>
+        <path class="wood-line" d="M485 435 L454 455"/>
+        <path class="dark-wood" d="M485 435 L454 455 L452 495 L482 480 L485 435"/>
+        <path class="wood-line" d="M452 495 L482 480"/>
+        <path class="light-wood" d="M452 495 L482 480 L478 526 L450 536 L452 495"/>
+        <path class="wood-line" d="M478 526 L450 536"/>
+        <path class="dark-wood" d="M478 526 L450 536 L448 568 L475 546 L478 526"/>
+
+        <path class="shadow" d="M80 553 L80 248 L243 78 L385 248 L417 248 L419 552 L410 256 L370 256 L243 88 L90 249 L80 553" />
+        <path class="floor" d="M50 587 L450 587 L493 546 L493 535 L483 535 L483 540 L441 573 L50 573 L50 587"/>
+        <path class="deck-top" d="M441 573 L483 540 L483 535 L493 535 L843 535 L800 573 L441 573"/>
+        <path class="deck" d="M441 573 L450 587 L800 587 L843 546 L843 535 L791 573 L441 573"/>
+        <path class="frame" d="M58 573 L36 248 L80 248 L80 553 L419 552 L417 248 L457 248 L441 573 L58 573"/>
+        <path class="back-frame" d="M441 573 L457 248 L467 248 L448 568 L441 573"/>
+        <path class="back-frame" d="M483 540 L519 218 L500 232 L475 546 L483 540"/>
+
+        <path class="roof-left" d="M80 248 L243 78 L243 13 L8 248 L80 248"/>
+        <path class="roof-right" d="M243 78 L243 13 L480 248 L385 248 L243 78"/>
+        <path class="roof-back" d="M243 13 L360 22 L536 205 L480 248"/>
+        <path class="roof-line" d="M373 36 L280 34 L376 39 L373 36"/>
+        <path class="roof-line" d="M393 56 L320 64 L396 59 L393 56"/>
+        <path class="roof-line" d="M415 80 L350 94 L419 84 L415 80"/>
+        <path class="roof-line" d="M439 104 L380 122 L443 108 L439 104"/>
+        <path class="roof-line" d="M462 128 L403 150 L466 132 L462 128"/>
+        <path class="roof-line" d="M486 153 L433 180 L490 157 L486 153"/>
+        <path class="roof-line" d="M515 183 L463 214 L519 187 L515 183"/>
+        <path class="door-frame" d="M112 553 L91 312 L245 310 L233 553 L226 553 L229 324 L108 325 L124 553 L112 553"/>
+        <path class="door-fill" d="M124 553 L226 553 L229 324 L108 325 L124 553"/>
+
+
+      </g>
+    </svg>
+  </div>
+
+    <div id="ladder" class="row">
+      <div  class="large-2 medium-2 small-2 columns ladder">
+        <div class="ladder-post left"></div>
+        <div class="ladder-post right"></div>
+      </div>
+      <div class="large-10 medium-10 small-10 columns"></div>
     </div>
 
+    <div id="grass" class="grass-overlay">
+      <div class="grass large-12 medium-12 small-12 columns"></div>
+    </div>
+
+
+    <!-- <div id="lineDrawing">
+      <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="90%" height="100%">
+        <filter id="glow" x="-500%" y="-500%" width="1000%" height="1000%">
+          <feFlood result="flood" flood-color="#ffffff" flood-opacity="1"></feFlood>
+          <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
+          <feMorphology in="mask" result="dilated" operator="dilate" radius="2"></feMorphology>
+          <feGaussianBlur in="dilated" result="blurred" stdDeviation="5"></feGaussianBlur>
+          <feMerge>
+              <feMergeNode in="blurred"></feMergeNode>
+              <feMergeNode in="SourceGraphic"></feMergeNode>
+          </feMerge>
+      </filter>
+        <g fill="none" fill-rule="evenodd" class="lines">
+          <path d='M331 11 L320 59 L271 50 L249 126 L321 176 L268 201 L279 288 L251 301 L206 283 L182 251 L146 252 L146 277 L111 321 L163 320'/>
+          <path d='M331 12 L312 33 L285 37 L270 48 L307 105 L249 126 L239 177 L205 173 L125 182 L146 252 L175 220'/>
+          <path d='M331 12 L384 49 L320 59 L307 105 L318 174 L357 210 L268 201 L249 126 L216 90 L200 105 L172 109 L175 139 L130 149'/>
+          <path d='M270 48 L244 66 L216 90 L224 131 L205 173 L175 220 L211 239 L206 283 L183 283 L163 320 L192 350 L108 326'/>
+          <path d='M320 59 L360 89 L307 105 L346 140 L402 113'/>
+          <path d='M378 50 L360 89 L402 113 L387 185 L346 140'/>
+          <path d='M384 49 L402 113 L360 89 L346 140 L321 176 L387 185 L357 210 L348 249 L268 201 L251 221 L251 301 L192 350 L183 283'/>
+          <path d='M249 126 L224 131 L172 109 L205 173 L175 139 L125 182 L119 212 L120 243 L146 252 L183 283 L146 277 L121 278 L108 326'/>
+          <path d='M348 249 L317 284 L268 201 L239 177 L251 221 L205 173 L211 239 L183 252 L183 283'/>
+          <path d='M172 109 L130 149 L125 182 L175 220 L183 252'/>
+          <path d='M317 284 L293 299 L279 288 L251 221 L206 283 L192 350 L186 354 L174 354 L149 363 L104 399 L56 396 L21 368 L11 320 L51 282 L64 264 L50 251 L47 229'/>
+          <path d='M120 243 L121 277 L146 252 L183 283 L109 322 L108 326 L78 357 L48 351 L45 331 L72 302 L87 271 L77 245 L46 229'/>
+          <path d='M174 354 L168 391 L145 430 L154 392 L149 363 L108 326 L104 399 L78 357 L56 396 L48 351 L21 368 L45 331 L11 320 L72 302 L51 282 L87 271 L64 264 L77 245 L53 253'/>
+        </g>
+      </svg>
+    </div> -->
     <!-- Js scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./assets/js/foundation.min.js" charset="utf-8"></script>
     <script src="./assets/js/anime.min.js"></script>
+    <script src="./assets/js/pulse.min.js"></script>
     <script src="./assets/js/main.js" charset="utf-8"></script>
-    <!-- <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script> -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
