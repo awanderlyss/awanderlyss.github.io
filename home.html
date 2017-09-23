@@ -16,7 +16,94 @@
   </head>
 
   <body>
-    
+    <div id="lineDrawing">
+  <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="400" height="420">
+    <filter id="blurMe">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
+    </filter>
+    <g fill="none" fill-rule="evenodd" class="lines">
+
+      <path stroke="#FFF"  d="M321 1 L310 49 L261 40 L239 116 L311 166 L258 191 L269 278 L241 291 L196 273 L172 241 L136 242 L136 267 L101 311 L153 310"/>
+      <path stroke="#FFF"  d="M321 2 L302 23 L275 27 L260 38 L297 95 L239 116 L229 167 L195 163 L115 172 L136 242 L165 210"/>
+      <path stroke="#FFF"  d="M321 2 L374 39 L310 49 L297 95 L308 164 L347 200 L258 191 L239 116 L206 80 L190 95 L162 99 L165 129 L120 139"/>
+      <path stroke="#FFF"  d="M260 38 L234 56 L206 80 L214 121 L195 163 L165 210 L201 229 L196 273 L173 273 L153 310 L182 340 L98 316"/>
+      <path stroke="#FFF"  d="M310 49 L350 79 L297 95 L336 130 L392 103"/>
+      <path stroke="#FFF"  d="M368 40 L350 79 L392 103 L377 175 L336 130"/>
+      <path stroke="#FFF"  d="M374 39 L392 103 L350 79 L336 130 L311 166 L377 175 L347 200 L338 239 L258 191 L241 211 L241 291 L182 340 L173 273"/>
+      <path stroke="#FFF"  d="M239 116 L214 121 L162 99 L195 163 L165 129 L115 172 L109 202 L110 233 L136 242 L173 273 L136 267 L111 268 L98 316"/>
+      <path stroke="#FFF"  d="M338 239 L307 274 L258 191 L229 167 L241 211 L195 163 L201 229 L173 242 L173 273"/>
+      <path stroke="#FFF"  d="M162 99 L120 139 L115 172 L165 210 L173 242"/>
+      <path stroke="#FFF"  d="M307 274 L283 289 L269 278 L241 211 L196 273 L182 340 L176 344 L164 344 L139 353 L94 389 L46 386 L11 358 L1 310 L41 272 L54 254 L40 241 L37 219"/>
+      <path stroke="#FFF"  d="M110 233 L111 267 L136 242 L173 273 L99 312 L98 316 L68 347 L38 341 L35 321 L62 292 L77 261 L67 235 L36 219"/>
+      <path stroke="#FFF"  d="M164 344 L158 381 L135 420 L144 382 L139 353 L98 316 L94 389 L68 347 L46 386 L38 341 L11 358 L35 321 L1 310 L62 292 L41 272 L77 261 L54 254 L67 235 L43 243"/>
+
+      <!-- <circle cx="321" cy="2" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="374" cy="39" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="368" cy="40" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="392" cy="103" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="350" cy="79" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="310" cy="49" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="302" cy="23" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="275" cy="27" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="260" cy="38" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="297" cy="95" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="336" cy="130" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="377" cy="175" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="311" cy="166" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="239" cy="116" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="206" cy="84" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="162" cy="99" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="214" cy="121" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="229" cy="167" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="258" cy="191" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="347" cy="200" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="338" cy="239" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="307" cy="274" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="283" cy="289" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="269" cy="278" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="241" cy="211" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="195" cy="163" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="258" cy="191" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="165" cy="129" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="120" cy="139" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="115" cy="172" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="165" cy="210" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="201" cy="229" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="241" cy="291" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="196" cy="273" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="173" cy="241" r="7" fill="white" filter="url(#blurMe)"/>
+      <circle cx="136" cy="242" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="110" cy="233" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="111" cy="267" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="136" cy="267" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="173" cy="273" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="182" cy="340" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="153" cy="310" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="101" cy="311" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="98" cy="316" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="176" cy="344" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="164" cy="344" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="158" cy="381" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="135" cy="420" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="144" cy="382" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="139" cy="353" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="94" cy="389" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="68" cy="347" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="46" cy="386" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="38" cy="341" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="11" cy="358" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="35" cy="321" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="1" cy="310" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="62" cy="292" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="41" cy="272" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="77" cy="261" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="54" cy="254" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="67" cy="235" r="4" fill="white" filter="url(#blurMe)"/>
+      <circle cx="43" cy="243" r="3" fill="white" filter="url(#blurMe)"/>
+      <circle cx="37" cy="219" r="3" fill="white" filter="url(#blurMe)"/> -->
+    </g>
+  </svg>
+</div>
     <!-- Js scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- use th cdn for this... it will be faster on github server
