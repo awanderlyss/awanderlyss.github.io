@@ -16,42 +16,11 @@
   </head>
 
   <body>
-
-
-
-
-    <div id="lineDrawing">
-      <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="90%" height="100%">
-        <filter id="glow" x="-500%" y="-500%" width="1000%" height="1000%">
-          <feFlood result="flood" flood-color="#ffffff" flood-opacity="1"></feFlood>
-          <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
-          <feMorphology in="mask" result="dilated" operator="dilate" radius="2"></feMorphology>
-          <feGaussianBlur in="dilated" result="blurred" stdDeviation="5"></feGaussianBlur>
-          <feMerge>
-              <feMergeNode in="blurred"></feMergeNode>
-              <feMergeNode in="SourceGraphic"></feMergeNode>
-          </feMerge>
-      </filter>
-        <g fill="none" fill-rule="evenodd" class="lines">
-          <path d='M331 11 L320 59 L271 50 L249 126 L321 176 L268 201 L279 288 L251 301 L206 283 L182 251 L146 252 L146 277 L111 321 L163 320'/>
-          <path d='M331 12 L312 33 L285 37 L270 48 L307 105 L249 126 L239 177 L205 173 L125 182 L146 252 L175 220'/>
-          <path d='M331 12 L384 49 L320 59 L307 105 L318 174 L357 210 L268 201 L249 126 L216 90 L200 105 L172 109 L175 139 L130 149'/>
-          <path d='M270 48 L244 66 L216 90 L224 131 L205 173 L175 220 L211 239 L206 283 L183 283 L163 320 L192 350 L108 326'/>
-          <path d='M320 59 L360 89 L307 105 L346 140 L402 113'/>
-          <path d='M378 50 L360 89 L402 113 L387 185 L346 140'/>
-          <path d='M384 49 L402 113 L360 89 L346 140 L321 176 L387 185 L357 210 L348 249 L268 201 L251 221 L251 301 L192 350 L183 283'/>
-          <path d='M249 126 L224 131 L172 109 L205 173 L175 139 L125 182 L119 212 L120 243 L146 252 L183 283 L146 277 L121 278 L108 326'/>
-          <path d='M348 249 L317 284 L268 201 L239 177 L251 221 L205 173 L211 239 L183 252 L183 283'/>
-          <path d='M172 109 L130 149 L125 182 L175 220 L183 252'/>
-          <path d='M317 284 L293 299 L279 288 L251 221 L206 283 L192 350 L186 354 L174 354 L149 363 L104 399 L56 396 L21 368 L11 320 L51 282 L64 264 L50 251 L47 229'/>
-          <path d='M120 243 L121 277 L146 252 L183 283 L109 322 L108 326 L78 357 L48 351 L45 331 L72 302 L87 271 L77 245 L46 229'/>
-          <path d='M174 354 L168 391 L145 430 L154 392 L149 363 L108 326 L104 399 L78 357 L56 396 L48 351 L21 368 L45 331 L11 320 L72 302 L51 282 L87 271 L64 264 L77 245 L53 253'/>
-        </g>
-      </svg>
-    </div>
+    
     <!-- Js scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="./assets/js/foundation.min.js" charset="utf-8"></script>
+    <!-- use th cdn for this... it will be faster on github server
+    <script src="./assets/js/foundation.min.js" charset="utf-8"></script> -->
     <script src="./assets/js/anime.min.js"></script>
     <script src="./assets/js/pulse.min.js"></script>
     <script src="./assets/js/main.js" charset="utf-8"></script>
