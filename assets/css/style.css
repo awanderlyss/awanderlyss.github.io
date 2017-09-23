@@ -1,4 +1,0 @@
-html{height:100%;width:100%;background-color:rgba(124,222,220,.75);}
-body{position:relative;margin:0 auto;max-width:75rem;}
-.treehouse{position:relative;width:900px;height:600px;}
-.floor{position:absolute;bottom:0;left:0;width:100%;height:20px;background-color:#673c1a;border-radius:1px}
