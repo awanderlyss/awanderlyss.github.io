@@ -1,0 +1,166 @@
+/************************** MAIN DOC ***************************/
+
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*************************** HEADER ****************************/
+
+.mdl-layout {
+  background: url('../images/bg-img2.jpg') center / cover;
+}
+
+.mdl-layout__tab-bar {
+  background: none;
+}
+
+.mdl-layout__header {
+  background: none;
+  box-shadow: none;
+}
+
+/************************** HOME PANEL *************************/
+
+.center-content {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
+/*********************** ABOUT PANEL ***************************/
+
+.about-grid img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-grid .mdl-card__title {
+  padding-bottom: 0;
+}
+
+.about-grid .mdl-card__title-text {
+  font-family: 'Clicker Script', cursive;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+
+.about-grid .mdl-card__supporting-text {
+  margin: 0 auto;
+  padding: 8px 16px;
+}
+
+.about-grid h5 {
+  margin-bottom: 0;
+}
+
+#toolbox {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding-bottom: 0;
+}
+
+.tool {
+  width: 65px;
+  text-align: center;
+  margin: 5px;
+}
+
+.tool i {
+  font-size: 45px;
+}
+
+.tool p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+/********************** PORTFOLIO PANEL ************************/
+
+.mdl-card__actions {
+  text-align: center;
+}
+
+.portfolio-grid .mdl-card__title {
+  width: 100%;
+  height: 400px;
+}
+
+.hangman {
+  background: url('../images/projects/hangman.png') center / cover;
+}
+
+.gamrbuddy {
+  background: url('../images/projects/gamrbuddy.png') center / cover;
+}
+
+.awanderlyssgirl {
+  color: white;
+  background: url('../images/projects/awanderlyssgirl.png') center / cover;
+}
+
+/*********************** CONTACT PANEL *************************/
+
+.contact-grid {
+  justify-content: center;
+}
+
+.contact-grid:first-of-type {
+  padding-bottom: 0;
+}
+
+.contact-grid:last-of-type {
+  padding-top: 0;
+}
+
+.contact-grid .mdl-cell {
+  width: 200px;
+}
+
+.contact-grid a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  position: relative;
+}
+
+.contact-grid i {
+  font-size: 100px;
+  color: #A9A9A9;
+}
+
+.contact-grid a:hover {
+  color: #0077b5;
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.contact-grid a:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/************************** FOOTER *****************************/
