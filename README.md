@@ -22,7 +22,6 @@ Notes:
 #191923
 
 
-
 tool box section:
   css:        fa fa-css3   #1572B6
   html:       fa fa-html5  #E44D26
@@ -31,13 +30,10 @@ tool box section:
   git:                     #F34F29
   rails:                   #A62C39
   github:                  black
-  javascript:              
+  javascript:
   ruby:                    #D91404
   sass:                    #CB6699
   atom:                    #67595D
-
-
-
 
 
   project img hoover:
@@ -45,3 +41,7 @@ tool box section:
     pull up box from bottom:
       short desc of project
       contacts two links: app and github(repo)
+
+Version 2.0 (10/01/2019)
+
+&#9634; Set-up Construction Page 
