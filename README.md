@@ -58,6 +58,6 @@ tool box section:
   </li>
   <li>&#9635; Update Google Analytics </li>
   <li>&#9635; Update Font Awesome </li>
-  <li>&#9634; Update Dev Icons </li>
+  <li>&#9635; Update Dev Icons </li>
   <li>&#9634; Remove/Update JS files </li>
 </ul>
