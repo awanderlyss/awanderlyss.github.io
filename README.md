@@ -42,8 +42,10 @@ tool box section:
       short desc of project
       contacts two links: app and github(repo)
 
-      
+
 <h1> Version 2.0 (10/01/2019) </h1>
 
-&#9635; Set-up Construction Page
-&#9634; Update Material Design Lite
+<ul>
+  <li>&#9635; Set-up Construction Page</li>
+  <li>&#9634; Update Material Design Lite</li>
+</ul>
