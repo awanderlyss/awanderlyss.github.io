@@ -49,7 +49,13 @@ tool box section:
   <li>&#9635; Set-up Construction Page</li>
   <li>&#9635; Update Material Design Lite</li>
   <li>&#9635; Update jQuery </li>
-  <li>&#9634; Update Google fonts </li>
+  <li>
+    &#9635; Update Google fonts
+    <ul>
+      <li><strong>Headers, Buttons:</strong> font-family: 'Open Sans', sans-serif;</li>
+      <li><strong>P tags:</strong> font-family: 'Roboto', sans-serif;</li>
+    </ul>
+  </li>
   <li>&#9634; Update Google Analytics </li>
   <li>&#9634; Update Font Awesome </li>
   <li>&#9634; Update Dev Icons </li>
