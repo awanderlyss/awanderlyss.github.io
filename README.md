@@ -56,7 +56,7 @@ tool box section:
       <li><strong>P tags:</strong> font-family: 'Roboto', sans-serif;</li>
     </ul>
   </li>
-  <li>&#9634; Update Google Analytics </li>
+  <li>&#9635; Update Google Analytics </li>
   <li>&#9634; Update Font Awesome </li>
   <li>&#9634; Update Dev Icons </li>
   <li>&#9634; Remove/Update JS files </li>
