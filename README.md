@@ -75,6 +75,29 @@ Background Photo Credit:
   <li>&#9635; Remove Material Lite Design</li>
   <li>&#9635; Add Foundation Files & links</li>
   <li>&#9635; Update foundation in index.html</li>
+</ul>
+
+10.12.19
+
+<h3>New Branch: <strong>background</strong></h3>
+<ul>
+  <li>&#9634; Set-up new working branch: background</li>
   <li>&#9634; Set-up bg image for large displays and background graident for medium/small screens</li>
   <li>&#9634; Create background animation for large to medium/small</li>
+  <li>&#9634; Git merge branches with compelted</li>
 </ul>
+
+<h3>New Branch: <strong>navigation</strong></h3>
+<ul>
+  <li>&#9634; Set-up new working branch: navigation</li>
+  <li>&#9634; Add foundation menu backbone</li>
+  <li>&#9634; Add current working pages to navigation</li>
+  <li>&#9634; Create new html files for working pages</li>
+  <li>&#9634; Style navigation for desktop/mobile</li>
+</ul>
+
+
+<!-- README.md copy paste components -->
+<!-- <ul>
+  <li>&#9634; </li>
+</ul> -->
