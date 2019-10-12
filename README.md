@@ -74,6 +74,7 @@ Background Photo Credit:
 <ul>
   <li>&#9635; Remove Material Lite Design</li>
   <li>&#9635; Add Foundation Files & links</li>
-  <li>&#9634; Update foundation in index.html</li>
-  <li>&#9634; Create Background animation for large to medium/small</li>
+  <li>&#9635; Update foundation in index.html</li>
+  <li>&#9634; Set-up bg image for large displays and background graident for medium/small screens</li>
+  <li>&#9634; Create background animation for large to medium/small</li>
 </ul>
