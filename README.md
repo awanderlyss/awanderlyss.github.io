@@ -73,7 +73,7 @@ Background Photo Credit:
 10.11.19
 <ul>
   <li>&#9635; Remove Material Lite Design</li>
-  <li>&#9634; Add Foundation Files & links</li>
+  <li>&#9635; Add Foundation Files & links</li>
   <li>&#9634; Update foundation in index.html</li>
   <li>&#9634; Create Background animation for large to medium/small</li>
 </ul>
