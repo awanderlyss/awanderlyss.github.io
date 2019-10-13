@@ -79,10 +79,17 @@ Background Photo Credit:
 
 10.12.19
 
+<h3>Master Punch List</h3>
+<ul>
+  <li>&#9634; Create and Add WebFont Kit to match new resumé</li>
+  <li>&#9634; Optimize SVG with SVG OPTIMISER by Peter Collingride</li>
+</ul>
+
+
 <h3>New Branch: <strong>background</strong></h3>
 <ul>
-  <li>&#9634; Set-up new working branch: background</li>
-  <li>&#9634; Set-up bg image for large displays and background graident for medium/small screens</li>
+  <li>&#9635; Set-up new working branch: background</li>
+  <li>&#9635; Set-up bg image for large displays and background graident for medium/small screens</li>
   <li>&#9634; Create background animation for large to medium/small</li>
   <li>&#9634; Git merge branches with compelted</li>
 </ul>
