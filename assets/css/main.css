@@ -16,3 +16,42 @@ body {
 .relative{
   position:relative;
 }
+
+.absolute{
+  position:absolute;
+}
+
+.center{
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.website{
+  border: 4px #aac5b7 solid;
+  background:white;
+
+}
+
+@media only screen and (min-width:901px){
+  .website{
+    transition: all 1s ease-in-out;
+  }
+  .website:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(2);
+  }
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:900px){
+  .website{
+    transition: all 1s ease-in-out;
+    top:0!important;
+    left:0!important;
+    bottom:0!important;
+    right:0!important;
+    width:100vw!important;
+    height:100vh!important;
+  }
+}

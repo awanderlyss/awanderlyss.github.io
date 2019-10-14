@@ -84,13 +84,14 @@ Background Photo Credit:
   <li>&#9634; Create and Add WebFont Kit to match new resumé</li>
   <li>&#9634; Optimize SVG with SVG OPTIMISER by Peter Collingride</li>
   <li>&#9634; Remove all unnecessary images from version 1</li>
+  <li>&#9634; Minimize js file by create functions for minimal code</li>
 </ul>
 
 <h3>New Branch: <strong>background</strong></h3>
 <ul>
   <li>&#9635; Set-up new working branch: background</li>
   <li>&#9635; Set-up bg image for large displays and background graident for medium/small screens</li>
-  <li>&#9634; Create background animation for large to medium/small</li>
+  <li>&#9635; Create background animation for large to medium/small</li>
   <li>&#9634; Git merge branches with completed</li>
 </ul>
 
