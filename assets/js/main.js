@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event){
   var bodySize = document.body.getBoundingClientRect().width;
   function createWebsiteWindow(){
     bodySize     = document.body.getBoundingClientRect().width;
-    var display  = document.querySelector('#display').getBoundingClientRect()
+    var display  = document.querySelector('#compScreen').getBoundingClientRect()
         website  = document.querySelector('#website');
     if(bodySize > 900){
       website.style.top = display.top+'px';

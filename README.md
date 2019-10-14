@@ -92,16 +92,17 @@ Background Photo Credit:
   <li>&#9635; Set-up new working branch: background</li>
   <li>&#9635; Set-up bg image for large displays and background graident for medium/small screens</li>
   <li>&#9635; Create background animation for large to medium/small</li>
-  <li>&#9635; Git merge branches with completed</li>
+  <li>&#9635; Git merge branches when completed</li>
 </ul>
 
 <h3>New Branch: <strong>navigation</strong></h3>
 <ul>
-  <li>&#9634; Set-up new working branch: navigation</li>
-  <li>&#9634; Add foundation menu backbone</li>
-  <li>&#9634; Add current working pages to navigation</li>
-  <li>&#9634; Create new html files for working pages</li>
-  <li>&#9634; Style navigation for desktop/mobile</li>
+  <li>&#9635; Set-up new working branch: navigation</li>
+  <li><s>&#9634; Add foundation menu backbone</s></li>
+  <li><s>&#9634; Add current working pages to navigation</s></li>
+  <li><s>&#9634; Create new html files for working pages</s></li>
+  <li>&#9635; Style navigation for desktop/mobile</li>
+  <li>&#9634; Git merge branches when completed</li>
 </ul>
 
 
