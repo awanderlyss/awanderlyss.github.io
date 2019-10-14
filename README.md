@@ -92,7 +92,7 @@ Background Photo Credit:
   <li>&#9635; Set-up new working branch: background</li>
   <li>&#9635; Set-up bg image for large displays and background graident for medium/small screens</li>
   <li>&#9635; Create background animation for large to medium/small</li>
-  <li>&#9634; Git merge branches with completed</li>
+  <li>&#9635; Git merge branches with completed</li>
 </ul>
 
 <h3>New Branch: <strong>navigation</strong></h3>
