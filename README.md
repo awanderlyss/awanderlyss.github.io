@@ -108,8 +108,8 @@ tool box section:
 
 <h3>New Branch: <strong>photo_frame</strong></h3>
 <ul>
-  <li>&#9634; Set-up new working branch: photo_frame</li>
-  <li>&#9634; Add version 1 photo, until new portfolio image is taken</li>
+  <li>&#9635; Set-up new working branch: photo_frame</li>
+  <li>&#9635; Add version 1 photo, until new portfolio image is taken</li>
   <li>&#9634; Git merge branches when completed</li>
 </ul>
 
