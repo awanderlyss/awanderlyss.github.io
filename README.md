@@ -89,16 +89,6 @@ tool box section:
 </ul>
 
 10.13.2019
-<h3>Master Punch List</h3>
-<ul>
-  <li>&#9634; Create and Add WebFont Kit to match new resumé</li>
-  <li>&#9634; Optimize SVG with SVG OPTIMISER by Peter Collingride</li>
-  <li>&#9634; Remove all unnecessary images from version 1</li>
-  <li>&#9634; Minimize js file by create functions for minimal code</li>
-  <li>&#9634; Adjust to a smaller scale on desktop display hover</li>
-  <li>&#9634; Take a new headshot for photo frame, maybe portrait view with Moo</li>
-</ul>
-
 <h3>New Branch: <strong>content</strong></h3>
 <ul>
   <li>&#9634; Set-up new working branch: content</li>
@@ -112,6 +102,34 @@ tool box section:
   <li>&#9635; Add version 1 photo, until new portfolio image is taken</li>
   <li>&#9634; Git merge branches when completed</li>
 </ul>
+
+10.24.2019
+<h3>Master Punch List</h3>
+<ul>
+  <li>&#9634; Create and Add WebFont Kit to match new resumé</li>
+  <li>&#9634; Optimize SVG with SVG OPTIMISER by Peter Collingride</li>
+  <li>&#9634; Remove all unnecessary images from version 1</li>
+  <li>&#9634; Minimize js file by creating functions for minimal code</li>
+  <li>&#9634; Adjust to a smaller scale on desktop display hover</li>
+  <li>&#9634; Take a new headshot for photo frame, maybe portrait view with Moo</li>
+  <li>&#9634; Create a wireframe for "web page" on laptop, mobile first</li>
+  <li>&#9634; Find a safe way to add a form to contact section</li>
+  <li>&#9634; Add spotify playist to Headphones with external link to profile</li>
+  <li>&#9634; Animate coffee cup steam with option to click, direct to email</li>
+  <li>&#9634; Add helper tips to each svg element</li>
+  <li>&#9634; Create an easter egg, gamer!</li>
+  <li>&#9634; Add icons that link to github, linkedin</li>
+</ul>
+
+<h3>New Branch: <strong>instagram</strong></h3>
+<ul>
+  <li>&#9634; Set-up new working branch: instagram</li>
+  <li>&#9634; Add two instragram photos to the polaroids</li>
+  <li>&#9634; Link photos to instagram page</li>
+  <li>&#9634; Add animation to expand image</li>
+  <li>&#9634; Git merge branches when completed</li>
+</ul>
+
 
 <!-- README.md copy paste components -->
 <!-- <ul>
